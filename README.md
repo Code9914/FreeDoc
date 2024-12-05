@@ -8,27 +8,21 @@
 * Chaque rendez-vous est unique et relie un médecin et un patient à une date précise.
 
 
--> Doctor:
-
--> Attributs: 
+-> Doctor attributs:
 *   first_name, last_name, specialty, zip_code
 
 -> Relations:
 *  has_many: appointments
 *  has_many: patients, through: :appointments
 
--> Patient:
-
--> Attributs: 
+-> Patient attributs: 
 *  first_name, last_name
 
 -> Relations:
 *  has_many: appointments
 *  has_many: doctors, through: :appointments
 
--> Appointment:
-
--> Attributs: 
+-> Appointment attributs: 
 *  date, doctor_id, patient_id
 
 -> Relations:
