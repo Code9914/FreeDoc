@@ -16,12 +16,16 @@
 *  has_many: appointments
 *  has_many: patients, through: :appointments
 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 -> Patient attributs: 
 *  first_name, last_name
 
 -> Relations:
 *  has_many: appointments
 *  has_many: doctors, through: :appointments
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 -> Appointment attributs: 
 *  date, doctor_id, patient_id
@@ -30,11 +34,13 @@
 *  belongs_to :doctor
 *  belongs_to :patient
 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 -> Prérequis:
 
 *  Ruby 3.0+ et Rails 7.0+
 *  Base de données SQLite (par défaut)
 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 -> Projet fait pour THP, pour apprendre et gérer les relations entre modèles dans Ruby on Rails.
