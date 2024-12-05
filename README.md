@@ -7,6 +7,7 @@
 * Patients peuvent être associés à plusieurs médecins via des rendez-vous.
 * Chaque rendez-vous est unique et relie un médecin et un patient à une date précise.
 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 -> Doctor attributs:
 *  first_name, last_name, specialty, zip_code
