@@ -9,7 +9,7 @@
 
 
 -> Doctor attributs:
-*   first_name, last_name, specialty, zip_code
+*  first_name, last_name, specialty, zip_code
 
 -> Relations:
 *  has_many: appointments
